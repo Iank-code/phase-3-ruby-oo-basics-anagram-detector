@@ -13,7 +13,7 @@ describe 'Anagram' do
   
     it 'detects a simple anagram' do
       ba = Anagram.new('ba')
-      matches = ba.match(%w[ab abc bac'])
+      matches = ba.match(%w[ab abc bac])
       expect(matches).to eq(['ab'])
     end
   
